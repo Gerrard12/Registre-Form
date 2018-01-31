@@ -10,16 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var mainScrollView: UIScrollView!
+    @IBOutlet weak var distanceStackViews: NSLayoutConstraint!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewWillAppear(_ animated: Bool) {
+        // mainScrollView.frame.size.height: Alto de Scroll View
+        // distanceStackViews.constant: Distancia a calcular entre Stack View de campos y Stack View de botones
+        distanceStackViews.constant = mainScrollView.frame.size.height - 560
     }
-
-
 }
 

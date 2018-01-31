@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C651DBFB16CFA6D7F4F0AE1 /* Pods_RegisterForm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2D983BAFE85A71021A2598 /* Pods_RegisterForm.framework */; };
+		56828658202219F300B9FAEE /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56828657202219F300B9FAEE /* UIView.swift */; };
 		56EE300B2020F8AE00446BD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EE300A2020F8AE00446BD1 /* AppDelegate.swift */; };
 		56EE300D2020F8AE00446BD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EE300C2020F8AE00446BD1 /* ViewController.swift */; };
 		56EE30102020F8AE00446BD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EE300E2020F8AE00446BD1 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		086C47732DBA5E6EA42AA29B /* Pods-RegisterForm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RegisterForm.release.xcconfig"; path = "Pods/Target Support Files/Pods-RegisterForm/Pods-RegisterForm.release.xcconfig"; sourceTree = "<group>"; };
+		56828657202219F300B9FAEE /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		56EE30072020F8AE00446BD1 /* RegisterForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegisterForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56EE300A2020F8AE00446BD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56EE300C2020F8AE00446BD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		56EE30112020F8AE00446BD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56EE30142020F8AE00446BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56EE30162020F8AE00446BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6825957180434E9A3E50F210 /* Pods-RegisterForm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RegisterForm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RegisterForm/Pods-RegisterForm.debug.xcconfig"; sourceTree = "<group>"; };
+		FF2D983BAFE85A71021A2598 /* Pods_RegisterForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RegisterForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C651DBFB16CFA6D7F4F0AE1 /* Pods_RegisterForm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				56EE30092020F8AE00446BD1 /* RegisterForm */,
 				56EE30082020F8AE00446BD1 /* Products */,
+				7792729758678DC91BFD7325 /* Pods */,
+				8525E41D059C6FAF6A5E5D2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +63,7 @@
 		56EE30092020F8AE00446BD1 /* RegisterForm */ = {
 			isa = PBXGroup;
 			children = (
+				56828657202219F300B9FAEE /* UIView.swift */,
 				56EE300A2020F8AE00446BD1 /* AppDelegate.swift */,
 				56EE300C2020F8AE00446BD1 /* ViewController.swift */,
 				56EE300E2020F8AE00446BD1 /* Main.storyboard */,
@@ -64,6 +74,23 @@
 			path = RegisterForm;
 			sourceTree = "<group>";
 		};
+		7792729758678DC91BFD7325 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6825957180434E9A3E50F210 /* Pods-RegisterForm.debug.xcconfig */,
+				086C47732DBA5E6EA42AA29B /* Pods-RegisterForm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8525E41D059C6FAF6A5E5D2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF2D983BAFE85A71021A2598 /* Pods_RegisterForm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56EE30192020F8AE00446BD1 /* Build configuration list for PBXNativeTarget "RegisterForm" */;
 			buildPhases = (
+				00AFDAB67474C6C42D4377B6 /* [CP] Check Pods Manifest.lock */,
 				56EE30032020F8AE00446BD1 /* Sources */,
 				56EE30042020F8AE00446BD1 /* Frameworks */,
 				56EE30052020F8AE00446BD1 /* Resources */,
+				5353D2E38895FCB81466581F /* [CP] Embed Pods Frameworks */,
+				3B5F5B604A622F03C9397AE5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +161,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00AFDAB67474C6C42D4377B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RegisterForm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B5F5B604A622F03C9397AE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RegisterForm/Pods-RegisterForm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5353D2E38895FCB81466581F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RegisterForm/Pods-RegisterForm-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RegisterForm/Pods-RegisterForm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		56EE30032020F8AE00446BD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				56EE300D2020F8AE00446BD1 /* ViewController.swift in Sources */,
+				56828658202219F300B9FAEE /* UIView.swift in Sources */,
 				56EE300B2020F8AE00446BD1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +357,7 @@
 		};
 		56EE301A2020F8AE00446BD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6825957180434E9A3E50F210 /* Pods-RegisterForm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +373,7 @@
 		};
 		56EE301B2020F8AE00446BD1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 086C47732DBA5E6EA42AA29B /* Pods-RegisterForm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

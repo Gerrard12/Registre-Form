@@ -41,16 +41,3 @@ extension UIView {
     }
 }
 
-// For handling nibs
-extension UIView {
-    func loadNib() -> UIView {
-        let bundle = Bundle(for: type(of: self))
-        let nibName = type(of: self).description().components(separatedBy: ".").last!
-        let nib = UINib(nibName: nibName, bundle: bundle)
-        var nibInstance: UIView = UIView()
-        if let posibleInstance = nib.instantiate(withOwner: self, options: nil).first as? UIView {
-            nibInstance = posibleInstance
-        }
-        return  nibInstance
-    }
-}
